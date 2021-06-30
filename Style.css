@@ -1,0 +1,67 @@
+body {
+    background: #c0e0e5;
+    min-height: 520px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box{
+    width: 310px;
+    height: 550px;
+    background: #37474F;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 6%;
+    box-shadow: 0 30px 30px -6px #455A64;
+    overflow: hidden;
+}
+
+#result {
+    height: 100px;
+    width: 307px;
+    background: #37474F;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    text-align: right;
+    padding: 37px 5px 5px 5px;
+    margin: 3px;
+    border-width: 2px; /*TODO:*/
+}
+
+.btn{
+    width: 70px;
+    height: 65px;
+    background: #3b4e56;
+    border: 2px solid #37474F;
+    border-radius: 10px;
+    color: white;
+    margin: 1px 1px 1px 0px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary, .btn-danger, .btn-back{
+    background-color:darkorange;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-clear, .btn-procent, .btn-pi, .btn-modul, .btn-square, .btn-pow{
+    background-color:rgb(197, 196, 196);
+    color: black;
+    font-weight: bold;
+}
+
+.form-group{
+    margin: 6px;
+}
