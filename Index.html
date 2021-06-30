@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="title">
+    <h1>JavaScript Calculator</h1>
+    </div>
+    <!-- <h3>Don't divide by zero&#128521;</h3> -->
+    <div class="box">
+        <div class="row">
+            <input type="text" class="form-control" value="" id="result" placeholder="0" data-operation="" data-total="0" data-current="" size="15">
+        </div>
+        <div class="row">
+            <div class="form-group col-lg-12">
+                <input type="button" class="btn btn-clear" value="AC">
+                <input type="button" class="btn btn-procent" value="%">
+                <input type="button" class="btn btn-pi" value="&#960" style="font-weight:normal;">
+                <input type="button" class="btn btn-back" value="&#8882;">
+            </div>
+            <div class="form-group col-lg-12">
+                <input type="button" class="btn btn-modul" value="mod">
+                <input type="button" class="btn btn-square" value="&#8730x">
+                <input type="button" class="btn btn-pow" value="x&sup2;">
+                <input type="button" class="btn btn-primary" value="/">
+            </div>
+            <div class="form-group col-lg-12">
+                <input type="button" class="btn btn-default" value="7">
+                <input type="button" class="btn btn-default" value="8">
+                <input type="button" class="btn btn-default" value="9">
+                <input type="button" class="btn btn-primary" value="x">
+            </div>
+            <div class="form-group col-lg-12">
+                <input type="button" class="btn btn-default" value="4">
+                <input type="button" class="btn btn-default" value="5">
+                <input type="button" class="btn btn-default" value="6">
+                <input type="button" class="btn btn-primary" value="-">
+            </div>
+            <div class="form-group col-lg-12">
+                <input type="button" class="btn btn-default" value="1">
+                <input type="button" class="btn btn-default" value="2">
+                <input type="button" class="btn btn-default" value="3">
+                <input type="button" class="btn btn-primary" value="+">
+            </div>
+            <div class="form-group col-lg-12">
+                <input type="button" class="btn btn-plusMinus" value="+/-">
+                <input type="button" class="btn btn-default" value="0">
+                <input type="button" class="btn btn-default" value=".">
+                <input type="button" class="btn btn-danger" value="=">
+            </div>
+        </div>
+    </div>
+
+    <script src="Logic.js"></script>
+</body>
+
+</html>
